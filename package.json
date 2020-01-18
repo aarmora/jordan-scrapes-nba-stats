@@ -1,0 +1,35 @@
+{
+	"name": "jordan-scrapes-nba-stats",
+	"version": "1.0.0",
+	"description": "Jordan scrapes stats.nba.com for first and second half statistics.",
+	"main": "./dist/index.js",
+	"scripts": {
+		"start": "tsc && node ./dist/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aarmora/jordan-scrapes-nba-stats.git"
+	},
+	"keywords": [
+		"typescript",
+		"javascript",
+		"axios",
+		"web",
+		"scraping"
+	],
+	"author": "Jordan Hansen",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/aarmora/jordan-scrapes-nba-stats/issues"
+	},
+	"homepage": "https://github.com/aarmora/jordan-scrapes-nba-stats#readme",
+	"devDependencies": {
+		"@types/axios": "^0.14.0",
+		"@types/json2csv": "^4.5.1",
+		"typescript": "^3.7.5"
+	},
+	"dependencies": {
+		"axios": "^0.19.1",
+		"json2csv": "^4.5.4"
+	}
+}
