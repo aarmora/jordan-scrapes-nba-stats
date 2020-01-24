@@ -19,14 +19,13 @@ import * as fs from 'fs';
 		const headers = axiosResponse.data.resultSets[0].headers;
 		const results = axiosResponse.data.resultSets[0].rowSet;
 
-
 		const games: any[] = [];
 		for (let i = 0; i < results.length; i++) {
 			const game: any = {};
 			const desiredIndice: number[] = [0, 3, 5, 6, 10, 12, 18, 21, 22, 23, 24];
 			for (let resultsIndex = 0; resultsIndex < results[i].length; resultsIndex++) {
-				// 
-				console.log('list of indice', headers[resultsIndex]);
+				// Use this to get the index for the data you are looking for
+				// console.log('list of indice', resultsIndex, headers[resultsIndex]);
 
 				if (desiredIndice.includes(resultsIndex)) {
 					game[headers[resultsIndex]] = results[i][resultsIndex];

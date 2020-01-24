@@ -6,8 +6,6 @@ This package has some sample code getting data from [NBA Advanced Stats](https:/
 
 Clone the repository and run `npm i`. 
 
-There are commented out portions of the code that test with aviationstack using axios. Just comment the portions you wish to use in before running.
-
 After that, you just need to run `npm start`.
 
 [Full Guide Here](https://javascriptwebscrapingguy.com/jordan-scrapes-nba-stats/)
