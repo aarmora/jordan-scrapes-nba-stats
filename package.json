@@ -29,7 +29,7 @@
 		"typescript": "^3.7.5"
 	},
 	"dependencies": {
-		"axios": "^0.19.1",
+		"axios": "^0.21.1",
 		"json2csv": "^4.5.4"
 	}
 }
